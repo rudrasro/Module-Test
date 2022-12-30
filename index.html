@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Business Landing Page" />
+    <title>Supriyo Rudra Module Test F1 30/12/2022</title>
+    <link rel="icon" href="./image/icon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6dccbbc57d.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <nav class="navbar fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/food.png" alt="foodpandas">
+                </a>
+                <!-- <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button> -->
+                <div class="right" id="navbarNav">
+                    <ul class="list-items">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#navbar">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our-service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="next-header">
+        <div class="container text-center">
+            <div class="row row-cols-2">
+                <div class="col">
+                    <h1>It's the food and groceries you love, delivered</h1>
+                </div>
+                <div class="col" id="image">
+                    <img src="./image/pizza.png" alt="Pizza">
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col align-self-center">
+                    <a href="#about">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="body">
+        <section class="about-us" id="about">
+            <div class="container text-center">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <img src="./image/burger.jpg" alt="burger">
+                    </div>
+                    <div class="col">
+                        <h1>About Us</h1>
+                        <p><b>foodpanda is Asia’s leading on-demand delivery platform, dedicated to bringing consumers a
+                                wide range of food, groceries and more, quickly and conveniently. Powered by technology
+                                and operational excellence, foodpanda is spearheading the growth of quick-commerce
+                                (q-commerce) across the region with its network of retail partners, as well as pandamart
+                                cloud stores to provide more on-demand options beyond the millions of food varieties.
+                            </b></p>
+                    </div>
+                </div>
+        </section>
+        <section class="our-service" id="our-service">
+            <div class="heading">
+                <h1>Our Services</h1>
+            </div>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Foodshed</h5>
+                            <p class="card-text">Chinese, Mughlai, North Indian, Biryani, Kebab, Seafood, Rolls, Pasta
+                                Kasba, Kolkata</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Country Roads</h5>
+                            <p class="card-text">North Indian, Chinese, Continental, Fast Food, Desserts, Beverages, Sichuan
+                                New Town, Kolkata</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Arsalan</h5>
+                            <p class="card-text">Restaurants in Kolkata, Kolkata Restaurants, Park Street Area restaurants, Best Park Street Area restaurants, Central Kolkata restaurants, </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="contact-us" id="contact-us">
+        <form action="./index.html" class="form" id="form">
+            <div class="form-heading">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="form-body">
+                <div class="items">
+                    <input type="text" id="first-name" placeholder="First Name" value="" required>
+                </div>
+                <div class="items">
+                    <input type="text" id="last-name" placeholder="Last Name" value="" required>
+                </div>
+                <div class="items">
+                    <input type="email" id="email" placeholder="Email Address" value="" required>
+                </div>
+                <div class="items">
+                    <input type="text" id="reason" placeholder="Reason for contacting" value="" required>
+                </div>
+                <div class="items">
+                    <input type="submit" id="submit" value="Submit" onclick="submitForm()">
+                </div>
+            </div>
+            
+
+        </form>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
